@@ -1,0 +1,171 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+.seccion {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.seccion h1 {
+    padding-top: 260px;
+    font-size: 95px;
+    color: #000;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+    font-weight: bold;
+}
+
+
+header {
+    background-color:#e5c68e;    
+}
+
+/* estilos menu responsive-->*/
+/* el texto de cada enlace de menu-->*/
+
+.nav-item a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5 s ease-out;
+}
+
+/*al pasar el mouse sobre las opciones del menu*/
+.nav-item a:hover{
+    background-color: #d6ac4f;
+    color: #000;
+
+}
+
+/*centra las opciones del menu de forma responsive*/
+.navbar-nav{
+    text-align: center;
+}
+
+/*colores de linea*/
+.custom-toggler .navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}       
+
+.custom-toggler .navbar-toggler-icon:hover {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+} 
+
+/*distancia del salto en las secciones*/
+.seccion2,.seccion3,.seccion4{
+    padding-top: 130px !important;
+    padding-bottom: 130px !important;
+
+}
+
+.botonScrollTop{
+    /*fija el boton*/
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    /*posicion derecha*/
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    /*color del icono flecha*/
+    color: #000;
+    font-size: 25px;
+    border-radius: 5px;
+    /*aparece el cursor menita para dar click*/
+    cursor: pointer;
+    /*fondo del icono flecha*/
+    background-color: #d6ac4f;
+}
+
+
+/*personalizacion del menu hamburguesa*/
+.navbar-toggler{
+    background-color: #000;
+}
+
+.navbar-toggler:hover{
+    background-color: #d6dbe3;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: #d6ac4f;
+    border-width: 2px;
+}
+    
+/*boton scrolltop*/
+
+
+
+.seccion1 {
+    background-color: #ffd433;
+}
+
+.seccion1 h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.seccion2 .tituloSeccion2 {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 60px;
+}
+
+.seccion2 .icon {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    background-color: #ffd433;
+    width: 110px;
+    padding: 25px;
+    color: #fff;
+}
+.seccion3 {
+    background-image: url("../img/banner2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.seccion3 h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.seccion4 .tituloSeccion4 {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 60px;
+}
+
+.seccion4 .card {
+    border: none;
+}
+.tituloSeccion5 {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    font-size: 60px;
+}
+
+footer {
+    background-color: #ffd433;
+}
+
+footer p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
